@@ -30,7 +30,7 @@ const contracts = {
           ],
         },
         Staker: {
-          address: "0xe040D7Cc2319948E38079848ac44A56d293B73B4",
+          address: "0xf7B61bDfb9b27FaF83Ea08cF779898506D948f70",
           abi: [
             {
               inputs: [
@@ -47,7 +47,7 @@ const contracts = {
               anonymous: false,
               inputs: [
                 {
-                  indexed: false,
+                  indexed: true,
                   internalType: "address",
                   name: "staker",
                   type: "address",
